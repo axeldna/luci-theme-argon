@@ -124,7 +124,7 @@ wget --no-check-certificate -O luci-theme-argon-2.4.3-r20250722.apk https://gith
 apk add --allow-untrusted luci-theme-argon*.apk
 ```
 
-### Install luci-app-argon-config
+### Install luci-app-argon-config (not available for OpenWrt Snapshots)
 
 ```bash
 wget --no-check-certificate -O luci-app-argon-config_0.9_all.ipk https://github.com/jerrykuku/luci-app-argon-config/releases/download/v0.9/luci-app-argon-config_0.9_all.ipk
