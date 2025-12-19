@@ -118,8 +118,8 @@ opkg install luci-theme-argon*.ipk
 ### Install for OpenWrt official SnapShots and ImmortalWrt
 
 ```bash
-opkg install luci-compat
-opkg install luci-lib-ipkg
+apk add luci-compat
+apk add luci-lib-ipkg
 wget --no-check-certificate -O luci-theme-argon-2.4.3-r20250722.apk https://github.com/jerrykuku/luci-theme-argon/releases/download/v2.4.3/luci-theme-argon-2.4.3-r20250722.apk
 apk add --allow-untrusted luci-theme-argon*.apk
 ```
